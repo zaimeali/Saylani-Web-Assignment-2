@@ -7,6 +7,10 @@ body{
     background-color: #316DC3;
 }
 
+.theme-color{
+    color: #316dc3;
+}
+
 .no-pd-no-mg{
     padding: 0 !important;
     margin: 0 !important;
@@ -14,6 +18,12 @@ body{
 
 .to-right{
     float: right;
+}
+
+.same-font{
+    font-family: "Merriweather", serif !important;
+    font-weight: 600 !important;
+    line-height: 1.42857143 !important;
 }
 
 .gr-ft{
@@ -241,11 +251,142 @@ body{
     font-size: 18px;
 }
 
+    /* Mission and Upcoming Project */
+.mission-div{
+    padding-top: 60px !important;
+    padding-bottom: 30px !important;
+}
+
 .service-img{
     width: 70px;
 }
 
+/* .line-bottom::after{
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    background-color: #427900 !important;
+    width: 50px;
+} */
 
+.mission-heading{
+    font-family: "Merriweather", serif !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    margin-bottom: 30px !important;
+    padding-bottom: 10px !important;
+}
+
+.mission-heading::after{
+    width: 50px;
+    border-bottom: 3px solid #427900;
+    padding-top: 15px !important;
+    content: "";
+    display: block;
+}
+
+.mission-underline{
+    /* border-bottom: 2px solid #427900; */
+    /* border-block-width: 50px; */
+}
+
+.mission-image{
+    display: inline-block;
+    margin-right: 30px !important;
+    padding: 15px !important;
+}
+
+.mission-image img{
+    width: 32px !important;
+    height: 32px !important;
+    vertical-align: middle !important;
+}
+
+.mission-style{
+    border: 1px solid #eee !important;
+    margin-bottom: 20px !important;
+}
+
+.mission-text{
+    display: inline-block;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.mission-text h4{
+    font-size: 15px !important;
+    font-family: 'Merriweather', serif !important;
+    font-weight: 600 !important;
+    line-height: 1.42857143 !important;
+}
+
+    /* Gallery */
+.gallery{
+    padding-top: 60px !important;
+    padding-bottom: 40px !important;
+}
+
+.gallery-title{
+    margin-bottom: 30px !important;
+}
+
+.portfolio{
+    margin-top: 10px !important;
+}
+
+.portfolio .gallery-image{
+    /* float: left; */
+    margin-right: 2px !important;
+    display: inline-block;
+}
+
+.portfolio .gallery-image .thumb img{
+    height: 140px !important;
+    width: 210px !important;
+}
+
+.thumb{
+    position: relative !important;
+}
+
+.overlay{
+    background-color: #fff;
+    height: 140px !important;
+    width: 210px !important;
+    position: absolute !important;
+    top: 0 !important;
+    opacity: 0;
+}
+.img-icons{
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.img-icons .img-icon{
+    display: inline-block !important;
+    opacity: 1;
+    background-color: #316DC3 !important;
+    border-radius: 25px !important;
+}
+
+.img-icons .img-icon a i{
+    padding: 10px !important;
+    font-size: 14px !important;
+    color: white !important;
+    opacity: 1;
+}
+
+.thumb:hover .overlay{
+    opacity: 0.8;
+}
+
+.thumb:hover .img-icon{
+    opacity: 1 !important;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 1199px){
