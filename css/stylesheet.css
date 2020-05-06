@@ -388,6 +388,18 @@ body{
     opacity: 1 !important;
 }
 
+
+
+/* FOOTER */
+.footer-cp{
+    padding-top: 10px !important;
+    /* padding-bottom: 10px !important; */
+    color: white !important;
+    font-size: 12px;
+}
+
+
+
 /* MEDIA QUERIES */
 @media (max-width: 1199px){
     .icons-top li{
